@@ -32,6 +32,7 @@ func New(s interface{}) *Struct {
 	}
 }
 
+// You can set default tag name
 func (s *Struct) SetTagName(tagName string) {
 	if tagName != "" {
 		s.TagName = tagName
